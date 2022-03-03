@@ -49,4 +49,4 @@ def carform(request):
         
         Cooling_system.save()
 
-    return render(request,"index.html")
+    return render(request,"componentInspection/index.html")
