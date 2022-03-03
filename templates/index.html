@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+    <div>
+        <form action="" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+             <label for="pwd">StickerNo:</label>
+             <input type="text" name="stickernumber" class="form-control" id="pwd">
+         </div>
+         <div class="form-group">
+             <label for="pwd">Date:</label>
+             <input type="date" name="date" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+         </div>
+         <div class="form-group">
+             <label for="pwd">Inspection Location:</label>
+             <input type="text" name="location" class="form-control" id="pwd">
+         </div>
+   
+           <div class="form-group">
+             <label for="pwd">MDA:</label>
+             <input type="tel" name="mda" class="form-control" id="pwd">
+         </div>
+             <div class="form-group">
+                 <label for="pwd">Reg No:</label>
+                 <input type="text" name="regno" class="form-control" id="pwd">
+           </div>
+          
+           <div class="form-group">
+             <label for="usr">Engine No:</label>
+             <input type="text" name="engineno" class="form-control" id="usr">
+           </div>
+           <div class="form-group">
+             <label for="pwd">Chassis No:</label>
+             <input type="text" name="chassisno" class="form-control" id="pwd">
+           </div>
+           <div class="form-group">
+             <label for="pwd">Year of Manufacture:</label>
+             <input type="text" name="year" class="form-control" id="pwd">
+           </div>
+           <div class="form-group">
+            <label for="pwd">Make:</label>
+            <input type="text" name="make" class="form-control" id="pwd">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Mileage:</label>
+            <input type="text" name="mileage" class="form-control" id="pwd">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Type:</label>
+            <input type="text" name="type" class="form-control" id="pwd">
+          </div>
+           <div class="form-group">
+            <label for="sel1">Radiator Condition:</label>
+            <select name="radiatorcondition" class="form-control" id="sel1">
+              <option>Select option</option>
+              <option name="OK">OK</option>
+              <option name="Needs Repair">Needs Repair</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel1">Fan condition:</label>
+            <select name="fancondition" class="form-control" id="sel1">
+                <option>Select option</option>
+                <option name="OK">OK</option>
+                <option name="Needs Repair">Needs Repair</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel1">AC condition:</label>
+            <select name="ac" class="form-control" id="sel1">
+                <option>Select option</option>
+                <option name="OK">OK</option>
+                <option name="Needs Repair">Needs Repair</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel1">Belts:</label>
+            <select name="belts" class="form-control" id="sel1">
+                <option>Select option</option>
+                <option name="OK">OK</option>
+                <option name="Needs Repair">Needs Repair</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel1">Horse Pipes:</label>
+            <select name="horsepipes" class="form-control" id="sel1">
+                <option>Select option</option>
+                <option name="OK">OK</option>
+                <option name="Needs Repair">Needs Repair</option>
+            </select>
+          </div>
+           <button type="submit" class="btn btn-success" style="float:right;">Register</button>
+         </form>    
+    </div
+        
+        
+    </body>
+</html>
