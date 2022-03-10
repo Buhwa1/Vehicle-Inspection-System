@@ -198,7 +198,7 @@
               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="horsepipes" id="inlineRadio2" value="Needs Repairion2">
+              <input class="form-check-input" type="radio" name="tractorprotection" id="inlineRadio2" value="Needs Repairion2">
               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
             </div>
            </div>
@@ -212,7 +212,7 @@
                <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
              </div>
              <div class="form-check form-check-inline">
-               <input class="form-check-input" type="radio" name="horsepipes" id="inlineRadio2" value="Needs Repairion2">
+               <input class="form-check-input" type="radio" name="aircompressor" id="inlineRadio2" value="Needs Repairion2">
                <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
              </div>
             </div>
@@ -298,6 +298,1088 @@
         </div>
       </div>
     </div>
+  </div>
+
+    {% comment %} Exhaust system fields {% endcomment %}
+    <div class="col-12">
+      <div class="card">
+        <h5 class="card-header">Exhaust system</h5>
+        <div class="card-body">
+          <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Condition of system:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="systemcondition" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="systemcondition" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Sensor Condition:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="sensorcondition" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="sensorcondition" id="inlineRadio2" value="Needs Repairion2">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>  
+           
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    {% comment %} end of exhaust system fields {% endcomment %}
+
+    {% comment %} Engine fields {% endcomment %}
+    <div class="col-12">
+      <div class="card">
+        <h5 class="card-header">Engine</h5>
+        <div class="card-body">
+          <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Engine oil level:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="oillevel" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="oillevel" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Any visible leaks:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="visibleleaks" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="visibleleaks" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div> 
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>General operation:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="generaloperation" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="generaloperation" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div> 
+           
+        </div>
+        </div>
+      </div>
+    </div>
+  
+    {% comment %} end of engine fields {% endcomment %}
+
+    {% comment %} Frame fields {% endcomment %}
+    <div class="col-12">
+      <div class="card">
+        <h5 class="card-header">Frame</h5>
+        <div class="card-body">
+          <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Frame members:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="framemembers" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="framemembers" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Tire and wheel clearance:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="wheelclearance" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="wheelclearance" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div> 
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Adjustable axle assemblies:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="axleassemblies" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="axleassemblies" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div> 
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Body of vehicle:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="vehiclebody" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="vehiclebody" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Body paints:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="bodypaints" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="bodypaints" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Cross Members:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="crossmembers" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="crossmembers" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+           
+        </div>
+        </div>
+      </div>
+    </div>
+
+    {% comment %} end of frame fields {% endcomment %}
+
+    {% comment %} Lighting devices fields {% endcomment %}
+    <div class="col-12">
+      <div class="card">
+        <h5 class="card-header">Lighting devices</h5>
+        <div class="card-body">
+          <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Head Lump LH:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="lumpLH" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="lumpLH" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Head Lump RH:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="lumpRH" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="lumpRH" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div> 
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Indicator FLH:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="indicatorFLH" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="indicatorFLH" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div> 
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Indicator RRH:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="indicatorRRH" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="indicatorRRH" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Brake Lights RH and LH:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="brakeRH" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="brakeRH" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Reverse Lights RH and LH:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="reverseRH" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="reverseRH" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Parking Lights:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="parkinglights" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="parkinglights" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+           
+        </div>
+        </div>
+      </div>
+    </div>
+  
+    {% comment %} end of lighting devices fields {% endcomment %}
+
+    {% comment %} Safe Loading fields {% endcomment %}
+    <div class="col-12">
+      <div class="card">
+        <h5 class="card-header">Safe Loading</h5>
+        <div class="card-body">
+          <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Condition of the bed:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="bedcondition" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="bedcondition" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Condition of the bucket:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="bucketcondition" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="bucketcondition" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div> 
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Door hinges (Rear):</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="doorhinges" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="doorhinges" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div> 
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Bed Sides hinges RH:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="bedhingesRH" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="bedhingesRH" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Bed Sides hinges LH:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="bedhingesLH" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="bedhingesLH" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+           
+        </div>
+        </div>
+      </div>
+    </div>
+    {% comment %} end of safe loading fields {% endcomment %}
+
+        {% comment %} Steering mechanism fields {% endcomment %}
+        <div class="col-12">
+          <div class="card">
+            <h5 class="card-header">Steering Mechanism</h5>
+            <div class="card-body">
+              <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <label for="sel1" class="mr-4" style="font-size:20px;"><b>Steering wheel free play:</b></label>
+                  <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="steeringplay" id="inlineRadio1" value="OK">
+                   <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                 </div>
+                 <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="steeringplay" id="inlineRadio2" value="Needs Repairion2">
+                   <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                 </div>
+                </div>
+               </div>
+    
+               
+               <div class="col-6">
+                <div class="form-group">
+                  <label for="sel1" class="mr-4" style="font-size:20px;"><b>Steering column:</b></label>
+                  <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="steeringcolumn" id="inlineRadio1" value="OK">
+                   <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                 </div>
+                 <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="steeringcolumn" id="inlineRadio2" value="Needs Repairion2">
+                   <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                 </div>
+                </div>
+               </div>
+    
+               <div class="col-6">
+                <div class="form-group">
+                  <label for="sel1" class="mr-4" style="font-size:20px;"><b>Front axle beam:</b></label>
+                  <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="frontaxlebeam" id="inlineRadio1" value="OK">
+                   <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                 </div>
+                 <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="frontaxlebeam" id="inlineRadio2" value="Needs Repairion2">
+                   <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                 </div>
+                </div>
+               </div>
+    
+               <div class="col-6">
+                <div class="form-group">
+                  <label for="sel1" class="mr-4" style="font-size:20px;"><b>Steering gear box:</b></label>
+                  <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="steeringgear" id="inlineRadio1" value="OK">
+                   <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                 </div>
+                 <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="steeringgear" id="inlineRadio2" value="Needs Repairion2">
+                   <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                 </div>
+                </div>
+               </div>
+    
+               <div class="col-6">
+                <div class="form-group">
+                  <label for="sel1" class="mr-4" style="font-size:20px;"><b>Pitman arm:</b></label>
+                  <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="pitmanarm" id="inlineRadio1" value="OK">
+                   <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                 </div>
+                 <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="pitmanarm" id="inlineRadio2" value="Needs Repairion2">
+                   <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                 </div>
+                </div>
+               </div>
+           
+              <div class="col-6">
+                <div class="form-group">
+                  <label for="sel1" class="mr-4" style="font-size:20px;"><b>Power steering:</b></label>
+                  <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="powersteering" id="inlineRadio1" value="OK">
+                   <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                 </div>
+                 <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="powersteering" id="inlineRadio2" value="Needs Repairion2">
+                   <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                 </div>
+                </div>
+               </div>
+        
+           
+              <div class="col-6">
+               <div class="form-group">
+                 <label for="sel1" class="mr-4" style="font-size:20px;"><b>Ball and socket joints:</b></label>
+                 <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="balljoints" id="inlineRadio1" value="OK">
+                  <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="balljoints" id="inlineRadio2" value="Needs Repairion2">
+                  <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                </div>
+               </div>
+               </div>
+           
+              <div class="col-6">
+               <div class="form-group">
+                 <label for="sel1" style="font-size:20px; margin-right:20px;"><b>Tie rod and drag links:</b></label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="tierod" id="inlineRadio1" value="OK">
+                  <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="tierod" id="inlineRadio2" value="Needs Repairion2">
+                  <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                </div>
+               </div>
+               </div>
+    
+               <div class="col-6">
+                <div class="form-group">
+                  <label for="sel1" style="font-size:20px; margin-right:20px;"><b>Nuts:</b></label>
+                 <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="steeringnuts" id="inlineRadio1" value="OK">
+                   <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                 </div>
+                 <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="steeringnuts" id="inlineRadio2" value="Needs Repairion2">
+                   <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                 </div>
+                </div>
+    
+               
+               
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        {% comment %} end of steering mechanism fields {% endcomment %}
+
+        {% comment %} Suspension fields {% endcomment %}
+    <div class="col-12">
+      <div class="card">
+        <h5 class="card-header">Suspension</h5>
+        <div class="card-body">
+          <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>U-Bolts:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="ubolts" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="ubolts" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Bushes:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="bushes" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="bushes" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div> 
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Spring assembly:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="springassembly" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="springassembly" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div> 
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Tongue Components:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="tongue" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="tongue" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Radius Components:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="radius" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="radius" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+
+           <div class="col-6">
+            <div class="form-group">
+              <label for="sel1" class="mr-4" style="font-size:20px;"><b>Tracking Components:</b></label>
+              <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="tracking" id="inlineRadio1" value="OK">
+               <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+             </div>
+             <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="tracking" id="inlineRadio2" value="Needs Repair">
+               <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+             </div>
+            </div>
+           </div>
+           
+        </div>
+        </div>
+      </div>
+    </div>
+
+    {% comment %} end of suspension fields {% endcomment %}
+
+    {% comment %} Tires fields {% endcomment %}
+       <div class="col-12">
+        <div class="card">
+          <h5 class="card-header">Tires</h5>
+          <div class="card-body">
+            <div class="row">
+            <div class="col-6">
+              <div class="form-group">
+                <label for="sel1" class="mr-4" style="font-size:20px;"><b>Front RH:</b></label>
+                <div class="form-check form-check-inline">
+                 <input class="form-check-input" type="radio" name="frontRH" id="inlineRadio1" value="OK">
+                 <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+               </div>
+               <div class="form-check form-check-inline">
+                 <input class="form-check-input" type="radio" name="frontRH" id="inlineRadio2" value="Needs Repair">
+                 <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+               </div>
+              </div>
+             </div>
+  
+             
+             <div class="col-6">
+              <div class="form-group">
+                <label for="sel1" class="mr-4" style="font-size:20px;"><b>Front LH:</b></label>
+                <div class="form-check form-check-inline">
+                 <input class="form-check-input" type="radio" name="frontLH" id="inlineRadio1" value="OK">
+                 <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+               </div>
+               <div class="form-check form-check-inline">
+                 <input class="form-check-input" type="radio" name="frontLH" id="inlineRadio2" value="Needs Repair">
+                 <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+               </div>
+              </div>
+             </div> 
+  
+             <div class="col-6">
+              <div class="form-group">
+                <label for="sel1" class="mr-4" style="font-size:20px;"><b>Rear RH:</b></label>
+                <div class="form-check form-check-inline">
+                 <input class="form-check-input" type="radio" name="rearRH" id="inlineRadio1" value="OK">
+                 <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+               </div>
+               <div class="form-check form-check-inline">
+                 <input class="form-check-input" type="radio" name="rearRH" id="inlineRadio2" value="Needs Repair">
+                 <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+               </div>
+              </div>
+             </div> 
+  
+             <div class="col-6">
+              <div class="form-group">
+                <label for="sel1" class="mr-4" style="font-size:20px;"><b>Rear LH:</b></label>
+                <div class="form-check form-check-inline">
+                 <input class="form-check-input" type="radio" name="rearLH" id="inlineRadio1" value="OK">
+                 <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+               </div>
+               <div class="form-check form-check-inline">
+                 <input class="form-check-input" type="radio" name="rearLH" id="inlineRadio2" value="Needs Repair">
+                 <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+               </div>
+              </div>
+             </div>
+  
+             <div class="col-6">
+              <div class="form-group">
+                <label for="sel1" class="mr-4" style="font-size:20px;"><b>Spare Tire:</b></label>
+                <div class="form-check form-check-inline">
+                 <input class="form-check-input" type="radio" name="sparetire" id="inlineRadio1" value="OK">
+                 <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+               </div>
+               <div class="form-check form-check-inline">
+                 <input class="form-check-input" type="radio" name="sparetire" id="inlineRadio2" value="Needs Repair">
+                 <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+               </div>
+              </div>
+             </div>
+             
+          </div>
+          </div>
+        </div>
+      </div>
+      {% comment %} end of tires fields {% endcomment %}
+
+          {% comment %} Wheels fields {% endcomment %}
+          <div class="col-12">
+            <div class="card">
+              <h5 class="card-header">Wheels and Rims</h5>
+              <div class="card-body">
+                <div class="row">
+                <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Lock or side ring:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="lockring" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="lockring" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div>
+      
+                 
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Wheels and rims:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="wheelsandrims" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="wheelsandrims" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div> 
+      
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Fasteners:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="fasteners" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="fasteners" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div> 
+      
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Nuts:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="nuts" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="nuts" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div>
+      
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Welds:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="welds" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="welds" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div>
+                 
+              </div>
+              </div>
+            </div>
+          </div>
+          {% comment %} end of wheels fields {% endcomment %}
+
+          {% comment %} Transmission fields {% endcomment %}
+          <div class="col-12">
+            <div class="card">
+              <h5 class="card-header">Transmission</h5>
+              <div class="card-body">
+                <div class="row">
+                <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Clutch assembly:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="clutchassembly" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="clutchassembly" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div>
+      
+                 
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Gear box:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="gearbox" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="gearbox" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div> 
+      
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Propeller shaft:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="propellershaft" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="propellershaft" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div> 
+      
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Driving shafts:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="drivingshafts" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="drivingshafts" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div>
+                 
+              </div>
+              </div>
+            </div>
+          </div>
+          {% comment %} end of transmission fields {% endcomment %}
+
+          {% comment %} Windshield fields {% endcomment %}
+          <div class="col-12">
+            <div class="card">
+              <h5 class="card-header">Windshield</h5>
+              <div class="card-body">
+                <div class="row">
+                <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Wind shield:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="wind" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="wind" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div>
+      
+                 
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Wiper blades:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="blades" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="blades" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div> 
+      
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Mouldings:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="mouldings" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="mouldings" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div> 
+      
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Wiper motors:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="wipermotors" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="wipermotors" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div>
+                 
+              </div>
+              </div>
+            </div>
+          </div>
+          {% comment %} end of windshield fields {% endcomment %}
+
+          {% comment %} Windows fields {% endcomment %}
+          <div class="col-12">
+            <div class="card">
+              <h5 class="card-header">Windows</h5>
+              <div class="card-body">
+                <div class="row">
+                <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Winding motors RHF:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="motorsRHF" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="motorsRHF" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div>
+      
+                 
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Winding motors RHR:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="motorsRHR" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="motorsRHR" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div> 
+      
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Winding motors LHF:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="motorsLHF" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="motorsLHF" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div> 
+      
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Winding motors LHR:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="motorsLHR" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="motorsLHR" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div>
+
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>Condition of Glasses:</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="glasscondition" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="glasscondition" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div>
+                 
+              </div>
+              </div>
+            </div>
+          </div>
+          {% comment %} end of windows fields {% endcomment %}
+
+          {% comment %} Condition rating fields {% endcomment %}
+          <div class="col-12">
+            <div class="card">
+              <h5 class="card-header">Condition rating</h5>
+              <div class="card-body">
+                <div class="row">
+                <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>0.0-0.3 (Poor):</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="poor" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="poor" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div>
+      
+                 
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>0.4-0.7 (Fair):</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="fair" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="fair" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div> 
+      
+                 <div class="col-6">
+                  <div class="form-group">
+                    <label for="sel1" class="mr-4" style="font-size:20px;"><b>0.8-1.0 (Good):</b></label>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="good" id="inlineRadio1" value="OK">
+                     <label class="form-check-label" for="inlineRadio1" style="font-size:18px;">OK</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="good" id="inlineRadio2" value="Needs Repair">
+                     <label class="form-check-label" for="inlineRadio2" style="font-size:18px;">Needs Repair</label>
+                   </div>
+                  </div>
+                 </div> 
+      
+                 
+              </div>
+              </div>
+            </div>
+          </div>
+          {% comment %} end of condition rating fields {% endcomment %}
+
+
+
+  </div>
+    
+
+
 
 
    
